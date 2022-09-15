@@ -7,24 +7,39 @@ import SideDrawer from './SideDrawer'
 
 const Header= () =>{
     const [drawerOpen, setDrawerOpen ] = useState(false)
+    const [headerShow, setHeaderShow] = useState(false);
+
+    const handleScroll = () => {
+        if(window.scrollY > 0 ) {
+            setHeaderShow(true)
+        } else{
+            setHeaderShow(false)
+
+        }
+    }
 
     const toggleDrawer  = (value)=>{
         setDrawerOpen(value)
     }
 
+    useEffect(()=>{
+        window.addEventListener('scroll',handleScroll)
+    },[])
+
+
     return (
         <AppBar
             position="fixed"
             style={{
-                backgroundColor : '#2f2f2f',
+                backgroundColor : headerShow ? '#2f2f2f' : 'transparent',
                 boxShadow: 'none',
                 padding: '10px 0px'
             }}
         >
          <Toolbar>
             <div className="header_logo"> 
-                <div className="font_righteous header_logo_venue">O Deivao</div>
-                <div className="header_logo_tittle">Eventos Musicais</div>
+                <div className="font_righteous header_logo_venue">Deivao</div>
+                <div className="header_logo_tittle">O milior dos meliores</div>
             </div> 
 
          <IconButton

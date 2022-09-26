@@ -1,17 +1,16 @@
-
 body {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .app {
-    height:"1500px";
-    background:'cornflowerblue';
+    height: "1500px";
+    background: 'cornflowerblue';
 }
 
 .featured_container {
-    position:'relative'
+    position: 'relative'
 }
 
 .font_righteous {
@@ -21,12 +20,15 @@ body {
 .bck_black {
     background: #3c3c3c;
 }
+
 .bck_white {
     background: #ffffff;
 }
+
 .bck_red {
     background: #ff4800;
 }
+
 .bck_yellow {
     background: #ffa800;
 }
@@ -38,7 +40,7 @@ body {
 
 .center_wrapper {
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
@@ -48,13 +50,14 @@ body {
 
 
 header {
-    padding:10px 0px;
+    padding: 10px 0px;
     transition: all 300ms ease-in;
 }
 
 header .header_logo {
     flex-grow: 1;
 }
+
 header .header_logo_venue {
     font-size: 40px;
 }
@@ -68,10 +71,10 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding:50px 0px;
+    padding: 50px 0px;
     text-align: center;
     font-size: 60px;
-    color:#ffffff;
+    color: #ffffff;
     background: red;
 }
 
@@ -85,7 +88,7 @@ footer .footer_copyright {
 
 
 .carrousel_wrapper {
-    height:800px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -99,8 +102,8 @@ footer .footer_copyright {
     left: 50%;
     width: 400px;
     height: 160px;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%);   
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     border: 2px solid white;
 }
 
@@ -111,6 +114,7 @@ footer .footer_copyright {
     text-align: center;
     color: #fff;
     font-size: 40px;
+
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
 }
@@ -120,9 +124,9 @@ footer .footer_copyright {
 ======================*/
 
 .countdown_wrapper {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .countdown_wrapper .countdown_top {
@@ -145,8 +149,9 @@ footer .footer_copyright {
     margin-right: 14px;
     padding-right: 49px;
 }
-.countdown_wrapper .countdown_item:last-child .countdown_time{
-    border:none;
+
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+    border: none;
 }
 
 .countdown_wrapper .countdown_tag {
@@ -165,11 +170,11 @@ footer .footer_copyright {
 }
 
 .vn_item {
-    width:50%;
-    color:#ffffff;
+    width: 50%;
+    color: #ffffff;
     text-align: center;
 }
-                      
+
 .vn_item .vn_outer {
     width: 300px;
     border: 2px solid #828282;
@@ -177,7 +182,7 @@ footer .footer_copyright {
     padding: 5px;
 }
 
-.vn_item .vn_inner { 
+.vn_item .vn_inner {
     border: 2px solid #828282;
     position: relative;
     padding: 0px 20px;
@@ -230,7 +235,7 @@ footer .footer_copyright {
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
-    color:#2c2c2c;
+    color: #2c2c2c;
     font-size: 52px;
 }
 
@@ -275,7 +280,7 @@ footer .footer_copyright {
     color: #2c2c2c;
 }
 
-.discount_wrapper .discount_description p { 
+.discount_wrapper .discount_description p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -302,7 +307,8 @@ footer .footer_copyright {
     display: flex;
     flex-wrap: wrap;
 }
-.pricing_wrapper .pricing_item{
+
+.pricing_wrapper .pricing_item {
     flex-grow: 1;
     width: 33%;
     padding: 20px;
@@ -310,7 +316,7 @@ footer .footer_copyright {
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    border:2px solid #ffa800;
+    border: 2px solid #ffa800;
     padding: 50px 20px;
 }
 
@@ -320,15 +326,18 @@ footer .footer_copyright {
     border-bottom: 1px solid #ffa800;
     padding-bottom: 20px;
 }
+
 .pricing_inner_wrapper .pricing_title span:nth-child(1) {
     font-size: 50px;
     display: block;
 }
+
 .pricing_inner_wrapper .pricing_title span:nth-child(2) {
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 300;
 }
+
 .pricing_inner_wrapper .pricing_description {
     color: #b8b8b8;
     font-weight: 300;
@@ -339,7 +348,7 @@ footer .footer_copyright {
 }
 
 .pricing_inner_wrapper .pricing_buttons {
-     text-align: center;
+    text-align: center;
 }
 
 
@@ -348,7 +357,7 @@ footer .footer_copyright {
 ======================*/
 
 .location_wrapper {
-    position:relative;
+    position: relative;
 }
 
 .location_tag {
@@ -356,7 +365,8 @@ footer .footer_copyright {
     bottom: 0px;
     width: 100%;
 }
-.location_tag div{
+
+.location_tag div {
     background: #2c2c2c;
     color: #ffffff;
     text-transform: uppercase;

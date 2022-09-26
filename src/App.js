@@ -5,23 +5,23 @@ import Header from "./components/header_footer/Header";
 import Footer from "./components/header_footer/Footer";
 import Featured from "./components/featured";
 
-const App = ()=> {
+const App = () => {
   return (
     <div className="App">
-      <Header/>
-      
+      <Header />
+
       <>
-      <Featured/>
+        <Featured />
       </>
 
-      <div style={{backgroundColor:'red', height:'800px'}}> </div>
-      <div style={{backgroundColor:'red', height:'800px'}}> </div>
-      <div style={{backgroundColor:'red', height:'800px'}}> </div>
-      <div style={{backgroundColor:'red', height:'800px'}}> </div>
-      
-      <Footer/>
-      </div>
-     
+      <div style={{ backgroundColor: '#3c3c3c', height: '800px' }}> </div>
+      <div style={{ backgroundColor: '#3c3c3c', height: '800px' }}> </div>
+      <div style={{ backgroundColor: '#3c3c3c', height: '800px' }}> </div>
+      <div style={{ backgroundColor: '#3c3c3c', height: '800px' }}> </div>
+      <div style={{ backgroundColor: '#3c3c3c', height: '800px' }}> </div>
+      <Footer />
+    </div>
+
   );
 }
 

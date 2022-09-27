@@ -174,8 +174,11 @@ footer .footer_copyright {
     display: flex;
     padding: 170px 0px;
 }
-.profileDev{
+.redirectLink {
     color: #ffffff;
+}
+.redirectLink:hover{
+    color: yellow;
 }
 .vn_item {
     width: 50%;

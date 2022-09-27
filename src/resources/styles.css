@@ -28,6 +28,9 @@ body {
 .bck_white {
     background: #ffffff;
 }
+.bck_red2 {
+    background: red;
+}
 
 .bck_red {
     background:linear-gradient(0deg, rgba(60,60,60,1) 0%, rgba(15,14,18,0.6601015406162465) 54%);
@@ -213,9 +216,20 @@ footer .footer_copyright {
     transform: rotate(45deg);
     top: -54px;
     left: 100px;
+    
 }
 
+.calendarIcon {    
+
+   margin-top: 30%;    
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+   
+     
+}
 .vn_item .vn_icon {
+    
     width: 50px;
     height: 50px;
     background-size: contain !important;

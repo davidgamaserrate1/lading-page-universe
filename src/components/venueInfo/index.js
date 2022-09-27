@@ -1,10 +1,9 @@
 import React from "react";
 import { Zoom } from "react-awesome-reveal";
 
-//import icon_calendar from '@mui/icons-material/CalendarMonth' ;
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonthIcon';
-//import icon_calendar from '../../resources/images/icons/calendar.png'
-import icon_location from '../../resources/images/icons/location.png'
+ 
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import LocationOnIcon from '@mui/icons-material/LocationOn'; 
 import BackgroundImg from '../../resources/images/background.jpg'
 
 const VenueNfo = () =>{
@@ -16,9 +15,12 @@ const VenueNfo = () =>{
                     <Zoom className="vn_item" triggerOnce>
                         <div>
                             <div className="vn_outer">
-                                <div className="vn_inner">
-                                    <div className="vn_icon_square bck_red">  <CalendarMonthIcon/> </div>
-                                   
+                                <div className="vn_inner">                                    
+                                   <div className="vn_icon_square bck_red2">                                    
+                                        <div className="calendarIcon"> 
+                                            <CalendarMonthIcon fontSize="large" />
+                                        </div>
+                                   </div>                       
                                     <div className="vn_title">
                                         Event & Date 
                                     </div>
@@ -34,8 +36,11 @@ const VenueNfo = () =>{
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_yellow"></div>
-                                    <div className="vn_icon" > 
-                                                                            
+                                    <div className="vn_icon_square" > 
+                                        <div className="calendarIcon"> 
+                                            <LocationOnIcon fontSize="large" />
+                                        </div>
+                                    
                                     </div>
                                     
                                     <div className="vn_title">

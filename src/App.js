@@ -5,6 +5,7 @@ import Header from "./components/header_footer/Header";
 import Footer from "./components/header_footer/Footer";
 import Featured from "./components/featured";
  import BackgroundImg from './resources/images/background.jpg'
+ import VenueNfo from "./components/venueInfo"; 
 
 
 
@@ -13,14 +14,15 @@ import Featured from "./components/featured";
 const App = () => {
   return (
     
-    <div className="App">
+    <div className="App" >      
       <>
       <Header />
       <Featured />
-      <div className="BodyContent">        
+       
+      <>
+      <VenueNfo/>
+      </>
         <div style={{ backgroundImage:`url(${BackgroundImg})`,  backgroundColor: '#3c3c3c', height: '1500px' }}> </div>
-        
-      </div>
         <Footer />
       </>
       

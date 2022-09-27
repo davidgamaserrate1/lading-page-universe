@@ -38,8 +38,8 @@ const Header = () => {
         >
             <Toolbar>
                 <div className="header_logo">
-                    <div className="font_righteous header_logo_venue">SPACE</div>
-                    <div className="header_logo_tittle">BEAUTIFUL LANDING PAGE</div>
+                    <div className="font_righteous header_logo_venue">Space</div>
+                    <div className="header_logo_tittle">Beautiful Landing Page</div>
                 </div>
 
                 <IconButton

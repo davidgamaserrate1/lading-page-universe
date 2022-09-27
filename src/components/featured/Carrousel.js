@@ -14,13 +14,11 @@ const Carrousel = () =>{
         dots:false,
         infinite: true,
         autoplay:true,
-        speed:500
+        speed:5
     }
 
-
     return(
-        <div 
-            className="carrousel_wrapper"
+        <div className="carrousel_wrapper"
             style={{
                 height:`${window.innerHeight}px`
             }}  
@@ -35,7 +33,6 @@ const Carrousel = () =>{
                         }}
                     ></div>
                 </div>
-
                 <div>
                     <div
                         className="carrousel_image"
@@ -45,7 +42,6 @@ const Carrousel = () =>{
                         }}
                     ></div>
                 </div>
-
                 <div>                    
                     <div
                         className="carrousel_image"
@@ -53,11 +49,9 @@ const Carrousel = () =>{
                             background:`url(${slide_three})`,
                             height:`${window.innerHeight}px`
                         }}
-                    ></div>
-                    
+                    ></div>                    
                 </div>
             </Slider>
-
         </div>
     )
 }

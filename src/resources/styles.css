@@ -1,12 +1,16 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    background:linear-gradient(0deg, rgba(60,60,60,1) 0%, rgba(15,14,18,0.6601015406162465) 54%);
+}
+.BodyContent{
+    background-image: url('./images/1slide_one.jpg');
 }
 
 .app {
     height: "1500px";
-    background: 'cornflowerblue';
+    
 }
 
 .featured_container {
@@ -26,7 +30,8 @@ body {
 }
 
 .bck_red {
-    background: #ff4800;
+    background:linear-gradient(0deg, rgba(60,60,60,1) 0%, rgba(15,14,18,0.6601015406162465) 54%);
+     
 }
 
 .bck_yellow {
@@ -52,6 +57,7 @@ body {
 header {
     padding: 10px 0px;
     transition: all 300ms ease-in;
+    
 }
 
 header .header_logo {
@@ -75,7 +81,7 @@ footer {
     text-align: center;
     font-size: 60px;
     color: #ffffff;
-    background: red;
+    background: #3c3c3c;
 }
 
 footer .footer_copyright {
@@ -130,7 +136,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #00344C;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -139,7 +145,7 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background:#00344C;
     padding: 10px 20px;
 }
 
@@ -168,7 +174,9 @@ footer .footer_copyright {
     display: flex;
     padding: 170px 0px;
 }
-
+.profileDev{
+    color: #ffffff;
+}
 .vn_item {
     width: 50%;
     color: #ffffff;

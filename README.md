@@ -1,3 +1,9 @@
+# Eclipse Landing Page
+## Know when and where the next eclipse will be
+![image](https://user-images.githubusercontent.com/86624625/192423755-439bc7ed-9a1e-4e7a-be5b-30b568e477ea.png)
+![image](https://user-images.githubusercontent.com/86624625/192423854-8aba7b7e-af13-45f0-8a0e-3f38f43b01e1.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

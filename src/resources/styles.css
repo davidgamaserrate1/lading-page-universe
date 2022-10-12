@@ -49,6 +49,7 @@ body {
 .center_wrapper {
     width: 900px;
     margin: 0 auto;
+    color: #ffffff;
 }
 
 
@@ -260,16 +261,18 @@ footer .footer_copyright {
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #2c2c2c;
+    color: #ffffff;
     font-size: 52px;
 }
+
+
 
 .highlight_wrapper .highlight_description {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
-    border-top: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     padding: 30px 0px;
 }
 
@@ -283,7 +286,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+    color: #fffff;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -291,7 +294,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #2c2c2c;
+    color: #fffff;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -302,7 +305,7 @@ footer .footer_copyright {
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
-    color: #2c2c2c;
+    color: #fffff;
 }
 
 .discount_wrapper .discount_description p {

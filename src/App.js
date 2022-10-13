@@ -8,7 +8,6 @@ import BackgroundImg from './resources/images/background.jpg'
 import VenueNfo from "./components/venueInfo"; 
 import Highlights from "./components/highlights";
 
-
 //const urlImg = './resources/images/' ;
 
 const App = () => {
@@ -26,10 +25,12 @@ const App = () => {
       <>
         <Highlights/>
       </>   
+      
 
         <div style={{ backgroundImage:`url(${BackgroundImg})`,  backgroundColor: '#3c3c3c', height: '1500px' }}> </div>
         <Footer />
       </>
+
       
     </div>
  

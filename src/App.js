@@ -7,27 +7,30 @@ import Featured from "./components/featured";
 import BackgroundImg from './resources/images/background.jpg'
 import VenueNfo from "./components/venueInfo"; 
 import Highlights from "./components/highlights";
-
-//const urlImg = './resources/images/' ;
+import Pricing from "./components/pricing";
+import Location from "./components/location";
 
 const App = () => {
   return (
     
-    <div className="App" >      
+    <div className="App" style={{ backgroundImage:`url(${BackgroundImg})`}} >      
       <>
       <Header />
-      <Featured />
-       
+      <Featured />       
       <>
       <VenueNfo/>
       </>
-
       <>
         <Highlights/>
-      </>   
-      
+      </>
+      <>
+        <Pricing/>
+      </>
+      <>
+        <Location/>
+      </>
 
-        <div style={{ backgroundImage:`url(${BackgroundImg})`,  backgroundColor: '#3c3c3c', height: '1500px' }}> </div>
+        {/* <div style={{ backgroundImage:`url(${BackgroundImg})`,  backgroundColor: '#3c3c3c', height: '1500px' }}> </div> */}
         <Footer />
       </>
 

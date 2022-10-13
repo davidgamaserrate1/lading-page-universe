@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from "react";
 import { Fade,Slide } from "react-awesome-reveal";
+import MyButton from "../utils/Button";
+import TicketIcon from '../../resources/images/icons/ticket.png'
 
 const Probability = () => {
     
@@ -29,11 +31,7 @@ const Probability = () => {
                         if(inView){
                             porcentage()
                         }
-                    }}>
-
-                
-
-               
+                    }}>               
                       <div className="discount_porcentage">                      
                         <span>{start}%</span>
                         <span>Visibilidade em Campo Grande</span>
@@ -43,10 +41,19 @@ const Probability = () => {
 
                 <Slide righ={true}>
                     <div className="discount_description">
-                        <h3>20 de Abril de 2023 Total </h3>
-                        <p>
-                        Solar Eclipse
-                        </p>
+                        <p>20 de Abril de 2023 </p>
+                        <h1>Solar Eclipse</h1>
+                        <MyButton
+                            text= "SAIBA MAIS"
+                            link="https://www.timeanddate.com/eclipse/solar/2023-april-20"
+                            size = "small"
+                            style ={{
+                                background : 'red',
+                                color:'#ffffff'
+                            }}
+                            icon={{TicketIcon}}
+                
+                        />
                     </div>
                 </Slide>
 

@@ -10,6 +10,8 @@ body {
 
 .app {
     height: "1500px";
+    min-height: "768px";
+    min-width: "1024px";
     
 }
 
